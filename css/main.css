@@ -1,0 +1,73 @@
+.button-1 {
+	background-color: #fe01b1;
+    	border: none;
+    	color: #ffffff;
+    	padding: 24px 32px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 40px;
+    	border-radius: 8px;
+    	margin-bottom: 5px;
+    	font-weight: 700;
+}
+
+.list {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.button-1 {
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+
+.button-1:hover {
+	background-color: #1b03a3; /* red */
+	color: white;
+}
+
+.button-1:active {
+	background-color: #f44336;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.body {
+	background-image: url("https://static3.cbrimages.com/wordpress/wp-content/uploads/2020/02/thundercat-dragon-ball-durag.jpg");
+	background-size: auto;
+}
+
+.title {
+	text-align: center;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 3em;
+	color: #ffffff;
+	background-color: #fe01b1;
+}
+
+.footer {
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-weight: bold;
+  	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: #fe01b1;
+  	color: white;
+  	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+a:hover {
+	text-decoration: underline;
+}
